@@ -97,6 +97,8 @@ Reading the keypad consists of 2 stages :
 #endif
 //=============================================================================
 
+//##########  MAIN.C  #########################################################
+
 #include "LED_KEY_TM1638.h"
 
 // Variable to store button data (each bit corresponds to a pressed key)
@@ -209,9 +211,9 @@ void main(void)
 
     while(1)
     {
-        ///////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////////
 
-        //-- turn on the LED corresponding to the pressed button ------------------
+        //-- turn on the LED corresponding to the pressed button --------------
         // continuously read the button states
         // (bit corresponds to the pressed key)
         keyPressed = TM1638_readKey();
@@ -250,7 +252,7 @@ void main(void)
         TM1638_sendNumberInt( HAL_GetTick() / 1000 );
         //------------------------------------------------
 
-        //////////////////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////////
 
     } //== = end while(1) = ==
 

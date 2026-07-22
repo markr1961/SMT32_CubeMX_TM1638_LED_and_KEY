@@ -13,7 +13,7 @@ An example can be found in the example.c file.
 
 ### MODULE PHOTO AND SCHEMATIC:
 ![](https://github.com/markr1961/SMT32_CubeMX_TM1638_LED_and_KEY/blob/main/TM1638.jpeg)
-![](https://github.com/markr1961/SMT32_CubeMX_TM1638_LED_and_KEY/blob/main/TM1638_LED_and_KEY.png)
+![](https://github.com/markr1961/SMT32_CubeMX_TM1638_LED_and_KEY/blob/main/TM1638_LED_and_KEY.jpg)
 
 ### To Do:
 - translate comment in C & H files.
