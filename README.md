@@ -16,4 +16,5 @@ An example can be found in the example.c file.
 ![](https://github.com/markr1961/SMT32_CubeMX_TM1638_LED_and_KEY/blob/main/TM1638_LED_and_KEY.png)
 
 ### To Do:
+- translate comment in C & H files.
 - convert LED & button numbering from 1-based to 0-based.
